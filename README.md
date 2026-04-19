@@ -4,16 +4,6 @@
 ║              Professional CSE Student Portfolio - Ready to Deploy              ║
 ╚════════════════════════════════════════════════════════════════════════════════╝
 
-Dear Shahil,
-
-Your personalized, professional portfolio website is now complete with all the 
-bells and whistles! Here's what you have:
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-✨ FEATURES INCLUDED
-──────────────────────
-
 Professional Design:
   ✅ Dark modern theme with smooth animations
   ✅ Fully responsive (mobile, tablet, desktop)
@@ -258,5 +248,5 @@ do the same! 🚀
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Made with ❤️ by Copilot
+Made with ❤️
 Last Updated: 2024
