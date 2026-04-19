@@ -1,0 +1,141 @@
+╔════════════════════════════════════════════════════════════════════════════════╗
+║                  DOWNLOAD CV/RESUME SETUP GUIDE                              ║
+╚════════════════════════════════════════════════════════════════════════════════╝
+
+✅ IMPORTANT UPDATE: Resume Download Now Active!
+
+The "Download My CV" button on your portfolio now downloads your actual PDF resume
+instead of a generated text file!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📋 SETUP INSTRUCTIONS
+─────────────────────
+
+STEP 1: Copy Your Resume PDF
+──────────────────────────────
+
+Your resume file:
+  📁 Location: C:\Users\shahi\Downloads\Rezume__1_.pdf
+
+Copy it to your portfolio folder:
+  📁 Destination: c:\Users\shahi\OneDrive\Desktop\New folder\
+
+How to copy:
+1. Open File Explorer
+2. Navigate to: Downloads folder
+3. Find: Rezume__1_.pdf
+4. Right-click → Copy
+5. Navigate to: Desktop\New folder\
+6. Right-click → Paste
+7. Done!
+
+OR use command:
+  Copy C:\Users\shahi\Downloads\Rezume__1_.pdf "c:\Users\shahi\OneDrive\Desktop\New folder\"
+
+STEP 2: Verify Files
+─────────────────────
+
+Your portfolio folder should now contain:
+  ✅ portfolio.html
+  ✅ Rezume__1_.pdf ← Resume file
+  ✅ firebase-config.js
+  ✅ All documentation files
+
+STEP 3: Test the Button
+────────────────────────
+
+1. Open portfolio.html in browser
+2. Scroll to "Contact" section
+3. Click "📥 Download My CV" button
+4. Should download: Rezume__1_.pdf
+5. Check your Downloads folder
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💡 HOW IT WORKS
+───────────────
+
+When someone clicks "Download My CV":
+  1. Button triggers downloadCV() function
+  2. Function creates download link to Rezume__1_.pdf
+  3. Browser downloads file with name: Shahil_Sinha_Resume.pdf
+  4. User gets your professional resume
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 DEPLOYMENT NOTES
+──────────────────
+
+When you deploy to Firebase/GitHub/Netlify:
+
+1. Upload ALL files including:
+   ✅ portfolio.html
+   ✅ Rezume__1_.pdf ← Important!
+   ✅ firebase-config.js
+
+2. The resume PDF will be served from your hosting
+
+3. Download button will work on live site too!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔄 UPDATE YOUR RESUME
+──────────────────────
+
+When you update your resume:
+
+1. Replace the Rezume__1_.pdf file in portfolio folder with new version
+2. Keep the filename the same: Rezume__1_.pdf
+3. If you rename it, update this line in portfolio.html:
+
+   OLD: const resumeUrl = 'Rezume__1_.pdf';
+   NEW: const resumeUrl = 'Your_New_Name.pdf';
+
+4. Re-deploy to hosting
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+❓ TROUBLESHOOTING
+──────────────────
+
+Q: Download button doesn't work?
+A: 
+  1. Check Rezume__1_.pdf is in same folder as portfolio.html
+  2. Check filename is exactly correct (case sensitive on some servers)
+  3. Open browser console (F12) for error messages
+
+Q: File downloads but wrong name?
+A: The downloaded filename is "Shahil_Sinha_Resume.pdf"
+   (This is set in the code and different from original)
+
+Q: Want to rename the downloaded file?
+A: In portfolio.html, change:
+   link.download = 'Shahil_Sinha_Resume.pdf';
+   to your preferred name
+
+Q: File not found on live site?
+A: Make sure you upload Rezume__1_.pdf when deploying
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📝 FIREBASE DEPLOYMENT SPECIAL NOTES
+────────────────────────────────────
+
+If using Firebase Hosting:
+
+1. Copy resume file to project folder
+2. Run: firebase deploy --only hosting
+3. Resume will be served globally
+4. Fast downloads worldwide! 🚀
+
+Firebase will automatically serve the PDF file as static content.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ YOU'RE ALL SET!
+
+Your resume download is now fully integrated into your portfolio!
+
+When recruiters click the button, they'll download your PDF resume directly.
+Professional and convenient! 👍
